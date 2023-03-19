@@ -35,7 +35,7 @@ export default function Home() {
       <Billboard />
       <div className="pb-40">
         <MovieList title="Trending Now" data={movies}/>
-        <MovieList title="Wish List" data={favorites}/>
+        <MovieList title="Favorite" data={favorites}/>
       </div>
     </>
   )
